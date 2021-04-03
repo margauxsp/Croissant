@@ -1,3 +1,18 @@
-h1 {
-  text-align: center;
+:root {
+  --branding-color: grey;
+  --light-branding-color: white;
+}
+
+body {
+  background-color: var(--branding-color);
+}
+h1,
+p {
+  color: var(--light-branding-color);
+}
+
+.contact {
+  text-decoration: none;
+  color: var(--light-branding-color);
+  font-size: 30px;
 }
